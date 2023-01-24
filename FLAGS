@@ -1,0 +1,2 @@
+main.cpp -I/usr/include/lua5.1
+result -static -llua5.1 -lm
