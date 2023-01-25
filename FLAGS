@@ -1,2 +1,3 @@
 main.cpp -I/usr/include/lua5.1
-result -static -llua5.1 -lm
+all -std=c++17
+result -static -llua5.1 -lm -l:libncursesw.a -l:libtinfo.a
